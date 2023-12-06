@@ -38,9 +38,9 @@ const addCart = (event) => {
   const cart = document.getElementById("cart");
   const product = document.createElement("div");
   product.innerHTML = `
-  <ul class="list-unstyled border border-dark-subtle rounded-2 ">
+  <ul class="text list-unstyled border border-dark-subtle rounded-2 p-2 m-1">
     <li class="fw-bold">${title}</li>
-    <li class="text-warning fw-bold bg-dark rounded-2">${price}</li>
+    <li class="text-warning fw-bold bg-dark rounded-2 m-2 p-2">${price}</li>
   </ul>
   `;
   cart.appendChild(product);
